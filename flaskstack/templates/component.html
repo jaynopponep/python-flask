@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Waldo World!</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css' }}"
+    {% block head %}{% endblock %}
+</head>
+<body>
+<h1>
+    Hello Waldo World!
+    {% block h1 %}{% endblock %}
+</h1>
+</body>
+</html>
